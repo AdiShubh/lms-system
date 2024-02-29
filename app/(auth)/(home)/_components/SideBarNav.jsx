@@ -50,7 +50,7 @@ const SideBarNav = () => {
           ${pathName == item.path ? "bg-purple-300 text-purple-800" : null}`}
             onClick={() => {
               setActiveIndex(index);
-              toggleSideBar(false);
+              //toggleSideBar(false);
             }}
           >
             <item.icon />
