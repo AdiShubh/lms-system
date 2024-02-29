@@ -21,7 +21,7 @@ const Header = () => {
       {!user ? (
         <button onClick={() => router.push("/sign-in")}>Login</button>
       ) : (
-        <UserButton />
+        <UserButton afterSignOutUrl="/" />
       )}
     </div>
   );
